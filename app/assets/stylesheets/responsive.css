@@ -1,0 +1,35 @@
+@media all and (max-width: 760px) {/* col-xs */
+	.logoBloc p img {width: 100% !important; max-width: 340px; }
+	.contents {padding: 0; }
+	.logoBloc h1 {font-size: 9.9vw; }
+	.logoBloc {
+	    text-align: center;
+	    margin-left: -30px; margin-right: -30px;
+	}
+	.bloc3 {width: 100%; max-width: 400px; }
+	.head2 .filtre{display: none !important}
+}
+@media all and (min-width: 760px) and (max-width: 900px) {/* col-sm */
+	.head2 .filtre{display: none !important}
+	
+}
+@media all and (min-width: 760px) and (max-width: 900px) {/* col-md*/
+	.head2 .filtre{display: none !important}
+}
+/*
+@media all and (min-width: 1200px) {/* col-lg 
+}
+
+@media (min-width: 768px) {
+  .modal-lg {
+   	width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 900px;
+  }
+}
+
+*/
+

@@ -1,0 +1,20 @@
+<div class="panel pane-default">
+  <h3 class="panel-heading">Authenticate</h3>
+  <div class="panel-body">
+    <%= form_for :user,url: sessions_path, html: {class: 'form-horizontal'} do |f| %>
+      <div class="form-group">
+        <%= f.label :username, 'Email or Username', class: 'col-xs-4 control-label' %>
+        <div class="col-xs-8"><%= f.text_field :username, class: 'form-control' %></div>
+      </div>
+      <div class="form-group">
+        <%= f.label :password, 'Password', class: 'col-xs-4 control-label' %>
+        <div class="col-xs-8"><%= f.password_field :password, class: 'form-control' %></div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-8 col-xs-offset-4">
+          <button class="btn btn-primary" type="submit">Save</button>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

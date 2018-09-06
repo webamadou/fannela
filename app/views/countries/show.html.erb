@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @admin_country.name %>
+</p>
+
+<p>
+  <strong>Code iso:</strong>
+  <%= @admin_country.code_iso %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @admin_country.state %>
+</p>
+
+<%= link_to 'Edit', edit_admin_country_path(@admin_country) %> |
+<%= link_to 'Back', admin_countries_path %>

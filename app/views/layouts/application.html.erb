@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Events</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  </head>
+
+  <body>
+  <div class="container-fluid" style="padding: 0">
+    <div class="container-fluid">
+      <div class="row head1">
+        <div class="col-md-3 logo">
+          <a href="<%= root_path %>" title="Home Page">
+            <%= image_tag 'logo2.png', class: 'img-responsive' %>
+          </a><br>application theme
+        </div>
+        <div class="col-md-6">
+          <div id="custom-search-input">
+            <div class="input-group col-md-12">
+              <input id="searchengine" type="text" class="form-control input-md" placeholder="Rechercher un évenement" />
+              <span class="input-group-btn">
+              <button class="btn btn-default btn-md" type="button">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 login-area">
+          <div class="dropdownmenu">
+            <a class="user user-profil"><%= image_tag 'Photo_Profil2.png' %><%= 'user-name' %></span>
+              <span class="glyphicon glyphicon-triangle-bottom"></span>
+            </a>
+            <div class="dropmenu">
+              {# {% if app.user and is_granted('ROLE_ADMIN') %} #}
+              <ul>
+                <li class="title">Pages utilisateurs:</li>
+                <li><a href="">Lecteur</a></li>
+                <li><a href="">Planner</a></li>
+                <li><a href="">Manager</a></li>
+                <li class="divider">&nbsp;</li>
+                <li class="title">Admin:</li>
+                <li><a href="">Liste utilisateurs</a></li>
+                <li><a href="">Liste couverture, thématique, type</a></li>
+              </ul>
+              {# {% endif %} #}
+              <div class="bottom">
+                <%= link_to "Sign out", destroy_user_session_path,:method => :delete  %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row head2">
+        <div class="hidden-xs hidden-sm col-md-2 filtre ">
+          <form action="#" method="post">
+            <h1>Filtrer</h1>
+            <ul>
+              <li>
+                <span class="glyphicon glyphicon-triangle-right"></span>
+                <input type="text" name="evn_startdate" rel="Date début" class="dateinterval" value="" placeholder="Date début">
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-triangle-right"></span>
+                <input type="text" name="evn_enddate" rel="Date fin" class="dateinterval" value="" placeholder="Date fin">
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-triangle-right"></span>
+                <select name="cn_id">
+                  <option value="" class="title">Pays</option>
+                </select>
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-triangle-right"></span>
+                <select name="thm_id">
+                  <option value="" class="title">Thématique</option>
+                </select>
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-triangle-right"></span>
+                <select name="cov_id">
+                  <option value="" class="title">Couverture</option>
+                </select>
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-triangle-right"></span>
+                <select name="typ_id">
+                  <option value="" class="title">Événement</option>
+                </select>
+              </li>
+            </ul>
+            <div class="validate_filter">
+              <button type="submit" class="btn btn-primary valid">Valider</button>
+            </div>
+          </form>
+            <!--{% ifpost is defined %}-->
+          <p> <a href="">Annuler Séléction</a></p>
+              <!--{% endif %}-->
+        </div>
+        <div class="col-md-10 contenu">
+          <% flash.each do |key, value| %>
+            <div class="alert <%= flash_class(key) %>">
+              <%= value %>
+            </div>
+          <% end %>
+          <!-- <p class="notice"><%#= notice %></p>
+          <p class="alert"><%#= alert %></p>-->
+          <%= yield %>
+          <footer class="footer">
+            <a href="#">&copy ME</a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

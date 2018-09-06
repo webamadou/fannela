@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <%= simple_form_for @event, wrapper: :horizontal_form, html: {class: 'form-horizontal'} do |f| %>
+    <% if event.errors.any? %>
+      <div class="alert alert-danger">
+        Error on saving! Check fields and make sure that required fields are correctly filled
+      </div>
+    <% end %>
+    <%= f.input :title %>
+    <%= f.input :startdate, as: :string, input_html: {class: 'datepicker_form'}, wrapper_html: {class: 'col-xs-6'} %>
+    <%= f.input :enddate, as: :string, input_html: {class: 'datepicker_form'}, wrapper_html: {class: 'col-xs-6'} %>
+    <%= f.input :description %>
+    <%= f.input :drive_link %>
+    <%= f.association :country %>
+    <%= f.association :category%>
+    <%= f.input :state %>
+    <hr/>
+   <%= f.button :submit, class: 'btn-primary' %>
+  <% end %>
+</div>

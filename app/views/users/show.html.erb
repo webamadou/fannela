@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <div class="col-xs-4">
+    <div class="avatar"></div>
+    <div class="infos">
+      <p>
+        <%= image_tag @user.avatar_url %>
+      </p>
+      <span class="name"><%= @user.name %> - <%= @user.firstname %></span><br/>
+      <span class="pseudo"><%= @user.username %></span>
+      <%= link_to "Editer", profil_path %>
+    </div>
+  </div>
+  <div class="col-xs-8">
+    contents
+  </div>
+</div>

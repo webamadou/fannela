@@ -1,0 +1,7 @@
+<h3>Bonjour <%= @user.name %></h3>
+
+Merci pour votre confirmation.
+Vous pouvez valider votre compte en vous rendant sur le lien suivant
+<%= confirm_user_url(id: @user.id, token: @user.confirmation_token) %>
+
+<%= confirm_user_url(id: @user) %>
