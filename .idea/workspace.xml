@@ -5,242 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9468c07c-e9b3-4f37-a676-26ebf5598e36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Events.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5702d5a5-9d18-4884-8293-7bab9456333d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/railways.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/Connecter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/Icone_Ajout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/Icone_Corbeille.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/Icone_Editer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/Icone_Visualiser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/Photo_Profil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/Photo_Profil2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/arrow-down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/arrow_down_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/bloc1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/bloc11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/bloc2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/gmail-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/icone2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/loader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/steph.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/countries.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/events.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/categories.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/datatables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/scripts.mine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/sessions.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/countries.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/events.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/categories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/datatables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/sessions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/countries_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/events_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/users/omniauth_callbacks_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/admin/countries_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/admin/events_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/categories_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/admin.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/application_record.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/category.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/city.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/concerns/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/country.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/event.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/validators/file_validator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/categories/_category.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/categories/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/categories/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/categories/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/categories/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/categories/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/categories/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/categories/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/countries/_admin_country.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/countries/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/countries/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/countries/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/countries/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/countries/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/countries/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/countries/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/email_changed.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/password_change.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/events/_admin_event.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/events/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/events/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/events/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/events/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/events/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/events/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/events/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/application.html--.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/devise.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/sessions/create.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/sessions/destroy.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/user_mailer/confirm.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/confirm.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/profil.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/bundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/rake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/spring" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/update" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/yarn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/omniauth.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/simple_form.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20180827185920_create_species.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20180828110744_create_admin_countries.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20180829211722_create_admin_events.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20180830094955_add_country_to_events.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20180830111411_create_admin_cities.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20180901161611_devise_create_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20180901214022_add_username_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20180904112116_add_socials_id_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20180905102116_create_categories.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/assets/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/assets/stylesheets/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tasks/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/templates/erb/scaffold/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/templates/rails/jbuilder/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/422.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/users/1/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/users/2/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/admin/countries_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/admin/events_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/categories_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/admin/cities.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/admin/countries.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/admin/events.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/categories.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/files/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/species.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/helpers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/integration/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mailers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/admin/city_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/admin/country_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/admin/event_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/category_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/specy_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/admin/countries_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/admin/events_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/categories_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -294,9 +60,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="categories_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="categories_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile.lock" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.json.jbuilder" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/categories/index.json.jbuilder">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="57" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datatables.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/datatables.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1036">
+              <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -331,6 +137,8 @@
       <find>not</find>
       <find>alert-info</find>
       <find>eventdatatable</find>
+      <find>dttb-categories</find>
+      <find>rails</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -339,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/countries.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/demo.scss" />
         <option value="$PROJECT_DIR$/app/views/admin/events/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/events_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
@@ -390,6 +196,8 @@
         <option value="$PROJECT_DIR$/app/views/events/index.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/events.coffee" />
         <option value="$PROJECT_DIR$/app/controllers/events_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/datatables.js" />
+        <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
       </list>
     </option>
   </component>
@@ -445,7 +253,7 @@
       </dailyData>
       <dailyData date="06-09-2018">
         <observation name="UNDEFINED" value="12.0" />
-        <observation name="false" value="40.0" />
+        <observation name="false" value="44.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
@@ -477,7 +285,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
@@ -513,7 +321,8 @@
         <observation name="false" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="false" value="52.0" />
+        <observation name="false" value="55.0" />
+        <observation name="true" value="1.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
@@ -545,7 +354,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -593,9 +402,9 @@
         <observation name="true" value="6.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="36.0" />
+        <observation name="UNDEFINED" value="39.0" />
         <observation name="false" value="3.0" />
-        <observation name="true" value="13.0" />
+        <observation name="true" value="14.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
@@ -639,8 +448,8 @@
         <observation name="true" value="1.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="36.0" />
-        <observation name="false" value="14.0" />
+        <observation name="UNDEFINED" value="39.0" />
+        <observation name="false" value="15.0" />
         <observation name="true" value="2.0" />
       </dailyData>
     </factor>
@@ -685,8 +494,8 @@
         <observation name="true" value="1.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="36.0" />
-        <observation name="false" value="14.0" />
+        <observation name="UNDEFINED" value="39.0" />
+        <observation name="false" value="15.0" />
         <observation name="true" value="2.0" />
       </dailyData>
     </factor>
@@ -728,8 +537,8 @@
         <observation name="false" value="10.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="36.0" />
-        <observation name="false" value="16.0" />
+        <observation name="UNDEFINED" value="39.0" />
+        <observation name="false" value="17.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
@@ -776,8 +585,8 @@
         <observation name="true" value="2.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="36.0" />
-        <observation name="false" value="16.0" />
+        <observation name="UNDEFINED" value="39.0" />
+        <observation name="false" value="17.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
@@ -813,7 +622,8 @@
         <observation name="false" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="false" value="52.0" />
+        <observation name="false" value="55.0" />
+        <observation name="true" value="1.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
@@ -845,7 +655,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -877,7 +687,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -909,7 +719,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
@@ -941,7 +751,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -973,7 +783,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
@@ -1005,7 +815,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
@@ -1037,7 +847,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -1087,9 +897,9 @@
         <observation name="typedSelect" value="9.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="cancelled" value="534.0" />
-        <observation name="explicitSelect" value="32.0" />
-        <observation name="typedSelect" value="20.0" />
+        <observation name="cancelled" value="549.0" />
+        <observation name="explicitSelect" value="35.0" />
+        <observation name="typedSelect" value="21.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
@@ -1121,7 +931,7 @@
         <observation name="BASIC" value="58.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="BASIC" value="83.0" />
+        <observation name="BASIC" value="88.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -1153,7 +963,7 @@
         <observation name="count" value="277.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="count" value="586.0" />
+        <observation name="count" value="605.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -1224,7 +1034,7 @@
       <dailyData date="06-09-2018">
         <observation name="UNDEFINED" value="12.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="79.0" />
+        <observation name="count" value="87.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -1298,7 +1108,7 @@
       <dailyData date="06-09-2018">
         <observation name="UNDEFINED" value="12.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="79.0" />
+        <observation name="count" value="87.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -1333,7 +1143,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
@@ -1365,7 +1175,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
@@ -1433,11 +1243,11 @@
         <observation name="variance" value="0.031587" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="average" value="0.213592" />
-        <observation name="count" value="103.0" />
+        <observation name="average" value="0.198198" />
+        <observation name="count" value="111.0" />
         <observation name="max" value="5.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.355927" />
+        <observation name="variance" value="0.344454" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
@@ -1505,11 +1315,11 @@
         <observation name="variance" value="34306.244054" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="average" value="-1063.300971" />
-        <observation name="count" value="103.0" />
+        <observation name="average" value="-1049.009009" />
+        <observation name="count" value="111.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="-1155.0" />
-        <observation name="variance" value="79720.84716" />
+        <observation name="variance" value="87180.016901" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
@@ -1577,11 +1387,11 @@
         <observation name="variance" value="51214.850021" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="average" value="-24.135922" />
-        <observation name="count" value="103.0" />
+        <observation name="average" value="-18.072072" />
+        <observation name="count" value="111.0" />
         <observation name="max" value="100.0" />
         <observation name="min" value="-400.0" />
-        <observation name="variance" value="13771.175947" />
+        <observation name="variance" value="13571.354541" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
@@ -1613,7 +1423,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
@@ -1645,7 +1455,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
@@ -1722,12 +1532,12 @@
         <observation name="variance" value="0.601223" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="36.0" />
-        <observation name="average" value="0.258065" />
-        <observation name="count" value="31.0" />
+        <observation name="UNDEFINED" value="39.0" />
+        <observation name="average" value="0.242425" />
+        <observation name="count" value="33.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.276669" />
+        <observation name="variance" value="0.270122" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
@@ -1759,7 +1569,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
@@ -1828,7 +1638,7 @@
       </dailyData>
       <dailyData date="06-09-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="103.0" />
+        <observation name="count" value="111.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -1899,11 +1709,11 @@
         <observation name="variance" value="6.809725" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="average" value="6.456311" />
-        <observation name="count" value="103.0" />
+        <observation name="average" value="6.405406" />
+        <observation name="count" value="111.0" />
         <observation name="max" value="11.0" />
         <observation name="min" value="1.0" />
-        <observation name="variance" value="4.627877" />
+        <observation name="variance" value="4.699291" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
@@ -1935,7 +1745,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -1967,7 +1777,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
@@ -1999,7 +1809,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
@@ -2068,7 +1878,7 @@
       </dailyData>
       <dailyData date="06-09-2018">
         <observation name="average" value="1.0" />
-        <observation name="count" value="103.0" />
+        <observation name="count" value="111.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -2103,7 +1913,7 @@
         <observation name="UNDEFINED" value="24.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="UNDEFINED" value="52.0" />
+        <observation name="UNDEFINED" value="56.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
@@ -2171,11 +1981,11 @@
         <observation name="variance" value="17570113.090268" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="average" value="4161.339806" />
-        <observation name="count" value="103.0" />
+        <observation name="average" value="4041.585586" />
+        <observation name="count" value="111.0" />
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="18528471.729292" />
+        <observation name="variance" value="18622005.82553" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -2223,7 +2033,7 @@
         <observation name="1" value="1.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="0" value="25.0" />
+        <observation name="0" value="28.0" />
         <observation name="1" value="6.0" />
         <observation name="5" value="1.0" />
       </dailyData>
@@ -2266,8 +2076,8 @@
         <observation name="withMnemonics" value="1.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="total" value="27.0" />
-        <observation name="withMnemonics" value="0.0" />
+        <observation name="total" value="30.0" />
+        <observation name="withMnemonics" value="1.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
@@ -2361,10 +2171,10 @@
         <observation name="0" value="4.0" />
         <observation name="1" value="1.0" />
         <observation name="11" value="1.0" />
-        <observation name="2" value="4.0" />
+        <observation name="2" value="5.0" />
         <observation name="3" value="7.0" />
-        <observation name="4" value="5.0" />
-        <observation name="5" value="2.0" />
+        <observation name="4" value="6.0" />
+        <observation name="5" value="3.0" />
         <observation name="6" value="2.0" />
         <observation name="7" value="2.0" />
         <observation name="8" value="4.0" />
@@ -2408,8 +2218,8 @@
         <observation name="count" value="306.0" />
       </dailyData>
       <dailyData date="06-09-2018">
-        <observation name="average" value="346.952381" />
-        <observation name="count" value="273.0" />
+        <observation name="average" value="346.874565" />
+        <observation name="count" value="287.0" />
       </dailyData>
     </factor>
   </component>
@@ -2419,6 +2229,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2435,6 +2246,19 @@
               <item name="Events" type="b2602c69:ProjectViewProjectNode" />
               <item name="Events" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Events" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Events" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Events" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Events" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2446,7 +2270,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2615,14 +2438,16 @@
       <workItem from="1536055071464" duration="15909000" />
       <workItem from="1536084577239" duration="28911000" />
       <workItem from="1536228765628" duration="16982000" />
+      <workItem from="1536272571716" duration="2410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263483000" />
+    <option name="totallyTimeSpent" value="265893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="27" width="1331" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Cargo" order="3" />
@@ -2632,8 +2457,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" content_ui="combo" id="Routes" order="3" weight="0.5626459" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32941177" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.214786" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32941177" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.214786" />
       <window_info anchor="bottom" id="Reviews" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="7" />
@@ -2664,13 +2489,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20180904112116_add_socials_id_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -2886,21 +2704,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/categories.coffee">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/datatables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1461" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/scripts.mine.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -2926,16 +2730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/categories/index.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -2970,8 +2764,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/categories.coffee">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/datatables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1036">
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
