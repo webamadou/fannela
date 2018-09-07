@@ -16,7 +16,7 @@ jQuery ->
       'targets': 4
     },{
       'render': (data, type, row) ->
-        result = '<a href="/events/'+row['id']+'"><button class="btn btn-success btn-xs"><i class="fa fa-eye"></i>Show</button></a> <br/> <a href="/events/'+row['id']+'/edit"><button class="btn btn-primary btn-xs"><i class="fa fa-eye"></i>Edit</button></a> <br/> <a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/events/'+row['id']+'"><button class="btn btn-danger btn-xs"><i class="fa fa-eye"></i>Destroy</button></a> <br/>'
+        result = '<a href="/events/'+row['id']+'"><button class="btn btn-success btn-xs"><i class="far fa-eye"></i>Show</button></a> - <a href="/events/'+row['id']+'/edit"><button class="btn btn-primary btn-xs"><i class="fas fa-eye"></i>Edit</button></a> - <a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/events/'+row['id']+'"><button class="btn btn-danger btn-xs"><i class="far fa-eye"></i>Destroy</button></a> <br/>'
         result
       'targets': 5
     } ],
