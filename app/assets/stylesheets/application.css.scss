@@ -1259,3 +1259,16 @@ a.newComment i.fa {
     border-radius: 3px;
     border: 1px solid #ccc;
 }
+h1.logo a {
+  display: block;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 1;
+}
+a, a:hover {
+  color: #353d6b;
+  background: none !important;
+}
