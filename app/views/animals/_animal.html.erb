@@ -1,0 +1,3 @@
+<li data-js-animal-id=<%= animal.id %>>
+  <%= animal.title %> <%= link_to "Delete", animal, remote: true, method: :delete, data: { confirm: "Are you sure you want to delete '#{animal.title}'?" } %>
+</li>

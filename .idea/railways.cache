@@ -1,3 +1,6 @@
+audited 8 packages in 2.072s
+found 0 vulnerabilities
+
                                Prefix Verb     URI Pattern                                                                              Controller#Action
                                themes GET      /themes(.:format)                                                                        themes#index
                                       POST     /themes(.:format)                                                                        themes#create
@@ -16,6 +19,14 @@
                                       PUT      /categories/:id(.:format)                                                                categories#update
                                       DELETE   /categories/:id(.:format)                                                                categories#destroy
                                  root GET      /                                                                                        events#index
+                              animals GET      /animals(.:format)                                                                       animals#index
+                                      POST     /animals(.:format)                                                                       animals#create
+                           new_animal GET      /animals/new(.:format)                                                                   animals#new
+                          edit_animal GET      /animals/:id/edit(.:format)                                                              animals#edit
+                               animal GET      /animals/:id(.:format)                                                                   animals#show
+                                      PATCH    /animals/:id(.:format)                                                                   animals#update
+                                      PUT      /animals/:id(.:format)                                                                   animals#update
+                                      DELETE   /animals/:id(.:format)                                                                   animals#destroy
                                events GET      /events(.:format)                                                                        events#index
                                       POST     /events(.:format)                                                                        events#create
                             new_event GET      /events/new(.:format)                                                                    events#new
@@ -33,6 +44,7 @@
                                       PUT      /countries/:id(.:format)                                                                 countries#update
                                       DELETE   /countries/:id(.:format)                                                                 countries#destroy
                           get_dataset GET      /get_dataset(.:format)                                                                   events#get_dataset
+                             event_js POST     /event_js(.:format)                                                                      events#event_js
                      new_user_session GET      /users/sign_in(.:format)                                                                 devise/sessions#new
                          user_session POST     /users/sign_in(.:format)                                                                 devise/sessions#create
                  destroy_user_session DELETE   /users/sign_out(.:format)                                                                devise/sessions#destroy

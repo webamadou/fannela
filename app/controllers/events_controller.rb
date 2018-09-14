@@ -4,14 +4,9 @@ class EventsController < ApplicationController
   # GET /admin/events
   # GET /admin/events.json
   def index
-    #puts '=================='
-=begin
-    puts Event.includes([:category, :country])
-              .select("title, startdate, enddate, description,countries.name as country, categories.name as category")
-             .references(:categories, :countries)
-=end
-    #User.includes(:profile).select(:field1, :field2).references(:profile)
-    puts '=================='
+    puts '==========================>'
+    puts custom_current_user.inspect
+    puts '==========================>'
     @events = Event.includes([:category, :country])
                   .select("title, startdate, enddate, description,countries.name as country, categories.name as category")
                   .references(:categories, :countries)
@@ -77,6 +72,11 @@ class EventsController < ApplicationController
       format.html { redirect_to events_url, notice: 'Event was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+
+  def event_js
+    @event = Event.find params[:id]
+    render json: @event
   end
 
   private

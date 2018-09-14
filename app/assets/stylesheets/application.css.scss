@@ -200,7 +200,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 }
 ul li {
     list-style: none;
-    padding: 3% 0% 3% 0% !important;
+    padding:0;
 }
 
 #events.table {
@@ -1271,4 +1271,23 @@ h1.logo a {
 a, a:hover {
   color: #353d6b;
   background: none !important;
+}
+#fannela-modal {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: block;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  color: #ffffff
+ }
+#fannela-modal .content-modal {
+  width: 55vw;
+  background: #ffffff;
+  color: #000000;
+  margin: 5vh auto;
+  padding: 5px 15px;
+  font-size: large;
 }

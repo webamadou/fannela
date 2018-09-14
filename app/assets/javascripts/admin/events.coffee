@@ -19,7 +19,7 @@ jQuery ->
       'targets': 4
     },{
       'render': (data, type, row) ->
-        result = '<a href="/events/'+row['id']+'" class="popUpBtn"><i class="fas fa-2x fa-eye"></i></a>'
+        result = '<a href="/events/'+row['id']+'" json-id="'+row['id']+'" class="popUpBtn"><i class="fas fa-2x fa-eye"></i></a>'
         result
       'targets': 5
     } ]
@@ -77,6 +77,31 @@ jQuery ->
       column
       orderby
     ]).draw()
+    return
+  $('body').on 'click', '#fannela-modal', (e) ->
+    e.preventDefault()
+    $('#fannela-modal').fadeOut(800).remove()
+    return
+  $('body').on 'click', '.popUpBtn', (e) ->
+    e.preventDefault()
+    if $('#fannela-modal').length > 0
+      $('#fannela-modal').remove()
+    else
+      newDiv          = document.createElement('div')
+      newDiv.id       = 'fannela-modal'
+      id              = $(this).attr('json-id')
+      $.ajax
+        type: 'POST'
+        url: 'event_js'
+        data: id: id
+        dataType: 'script'
+        success: (datas) ->
+          datas = JSON.parse(datas)
+          startdate = if datas.startdate == null then 'undefined' else datas.startdate
+          enddate   = if datas.enddate==null then 'undefined' else datas.enddate
+          newDiv.innerHTML = '<div class="content-modal"><div class="container-fluid"><h3>'+datas.title+'</h3> <span class="metas">from:'+startdate+' to:'+enddate+'</span> <div>'+datas.description+'</div><br/> <div class="date_metas">Saved at:'+datas.created_at+' </div></div>'
+          document.body.append(newDiv)
+          return
     return
   return
 ###

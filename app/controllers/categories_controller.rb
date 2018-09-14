@@ -15,6 +15,10 @@ class CategoriesController < ApplicationController
   # GET /categories/new
   def new
     @category = Category.new
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   # GET /categories/1/edit

@@ -32,7 +32,7 @@ class UsersController < ApplicationController
   end
 
   def profil
-    @user = current_user
+    @user = custom_current_user
   end
 
   def update
@@ -45,7 +45,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = current_user
+    @user = custom_current_user
     @path = @user.avatar_path
   end
 

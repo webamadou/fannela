@@ -1,0 +1,11 @@
+<h1>Tutorials</h1>
+
+<ul id="animals">
+  <%= render @animals %>
+</ul>
+
+<%= form_with model: Animal.new, data: {'js-animal-form' => true} do |form| %>
+  Title <%= form.text_field :title %><br>
+  URL <%= form.text_field :description %><br>
+  <%= form.submit 'Save' %>
+<% end %>

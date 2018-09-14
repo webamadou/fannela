@@ -34,11 +34,11 @@
         </div>
         <div class="col-md-3 login-area">
           <div class="dropdownmenu">
-            <a class="user user-profil"><%= image_tag 'Photo_Profil2.png' %><%= 'user-name' %></span>
+            <a class="user user-profil"><%= image_tag 'Photo_Profil2.png' %><%= "#{current_user.username} #{current_user.rol.to_s}" %></span>
               <span class="glyphicon glyphicon-triangle-bottom"></span>
             </a>
             <div class="dropmenu">
-              {# {% if app.user and is_granted('ROLE_ADMIN') %} #}
+              <%= current_email.rol %>
               <ul>
                 <li class="title">Pages utilisateurs:</li>
                 <li><a href="">Lecteur</a></li>
@@ -49,9 +49,8 @@
                 <li><a href="">Liste utilisateurs</a></li>
                 <li><a href="">Liste couverture, thématique, type</a></li>
               </ul>
-              {# {% endif %} #}
               <div class="bottom">
-                <%= link_to "Sign out", destroy_user_session_path,:method => :delete  %>
+                <%= link_to "Sign out", destroy_user_session_path,:method => :delete, class: 'btn btn-primary'  %>
               </div>
             </div>
           </div>
@@ -99,9 +98,7 @@
               <button type="submit" class="btn btn-primary valid">Valider</button>
             </div>
           </form>
-            <!--{% ifpost is defined %}-->
           <p> <a href="">Annuler Séléction</a></p>
-              <!--{% endif %}-->
         </div>
         <div class="col-md-10 contenu">
           <% flash.each do |key, value| %>
@@ -109,8 +106,6 @@
               <%= value %>
             </div>
           <% end %>
-          <!-- <p class="notice"><%#= notice %></p>
-          <p class="alert"><%#= alert %></p>-->
           <%= yield %>
           <footer class="footer">
             <a href="#">&copy ME</a>

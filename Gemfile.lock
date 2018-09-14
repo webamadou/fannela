@@ -278,6 +278,7 @@ DEPENDENCIES
   omniauth
   omniauth-facebook
   omniauth-google-oauth2 (~> 0.2.2)
+  popper_js (~> 1.14.3)
   puma (~> 3.11)
   rails (~> 5.2.1)
   sass-rails (~> 5.0)
