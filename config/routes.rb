@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
 
+  resources :coverages
   resources :themes
   resources :categories
   #devise_for :users
   root to: 'events#index'
-
   resources :animals
   resources :events
   resources :countries
