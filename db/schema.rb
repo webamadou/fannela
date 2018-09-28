@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_13_111145) do
+ActiveRecord::Schema.define(version: 2018_09_14_193528) do
 
   create_table "admin_cities", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
     t.string "name"
@@ -43,6 +43,13 @@ ActiveRecord::Schema.define(version: 2018_09_13_111145) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "coverages", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
+    t.string "name"
+    t.integer "state"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "events", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
     t.string "title"
     t.datetime "startdate"
@@ -54,8 +61,10 @@ ActiveRecord::Schema.define(version: 2018_09_13_111145) do
     t.datetime "updated_at", null: false
     t.bigint "country_id"
     t.bigint "categories_id"
+    t.bigint "coverage_id"
     t.index ["categories_id"], name: "index_events_on_categories_id"
     t.index ["country_id"], name: "index_events_on_country_id"
+    t.index ["coverage_id"], name: "index_events_on_coverage_id"
   end
 
   create_table "species", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
@@ -143,4 +152,5 @@ ActiveRecord::Schema.define(version: 2018_09_13_111145) do
   add_foreign_key "admin_cities", "countries"
   add_foreign_key "events", "categories", column: "categories_id"
   add_foreign_key "events", "countries"
+  add_foreign_key "events", "coverages"
 end

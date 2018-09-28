@@ -1,12 +1,14 @@
 class EventsController < ApplicationController
   before_action :set_admin_event, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!
-  # GET /admin/events
-  # GET /admin/events.json
+
+
   def index
-    puts '==========================>'
-    puts custom_current_user.inspect
-    puts '==========================>'
+    @events = Event.includes([:category, :country])
+                  .select("title, startdate, enddate, description,countries.name as country, categories.name as category")
+                  .references(:categories, :countries)
+  end
+  def planner
     @events = Event.includes([:category, :country])
                   .select("title, startdate, enddate, description,countries.name as country, categories.name as category")
                   .references(:categories, :countries)

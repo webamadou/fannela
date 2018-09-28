@@ -1,7 +1,15 @@
-audited 8 packages in 2.072s
+audited 8 packages in 6.054s
 found 0 vulnerabilities
 
                                Prefix Verb     URI Pattern                                                                              Controller#Action
+                            coverages GET      /coverages(.:format)                                                                     coverages#index
+                                      POST     /coverages(.:format)                                                                     coverages#create
+                         new_coverage GET      /coverages/new(.:format)                                                                 coverages#new
+                        edit_coverage GET      /coverages/:id/edit(.:format)                                                            coverages#edit
+                             coverage GET      /coverages/:id(.:format)                                                                 coverages#show
+                                      PATCH    /coverages/:id(.:format)                                                                 coverages#update
+                                      PUT      /coverages/:id(.:format)                                                                 coverages#update
+                                      DELETE   /coverages/:id(.:format)                                                                 coverages#destroy
                                themes GET      /themes(.:format)                                                                        themes#index
                                       POST     /themes(.:format)                                                                        themes#create
                             new_theme GET      /themes/new(.:format)                                                                    themes#new

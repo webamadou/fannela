@@ -19,7 +19,7 @@ jQuery ->
       'targets': 4
     },{
       'render': (data, type, row) ->
-        result = '<a href="/events/'+row['id']+'" json-id="'+row['id']+'" class="popUpBtn"><i class="fas fa-2x fa-eye"></i></a>'
+        result = '<a href="/events/'+row['id']+'" json-id="'+row['id']+'" class="popUpBtn"><i class="fas fa-2x fa-eye"></i></a> - <a href="/events/'+row['id']+'" json-id="'+row['id']+'" class="popUpBtn"><i class="fas fa-2x fa-eye"></i></a>'
         result
       'targets': 5
     } ]
@@ -80,6 +80,7 @@ jQuery ->
     return
   $('body').on 'click', '#fannela-modal', (e) ->
     e.preventDefault()
+    e.stopPropagation()
     $('#fannela-modal').fadeOut(800).remove()
     return
   $('body').on 'click', '.popUpBtn', (e) ->

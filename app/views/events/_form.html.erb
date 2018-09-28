@@ -10,6 +10,7 @@
     <%= f.input :enddate, as: :string, input_html: {class: 'datepicker_form'}, wrapper_html: {class: 'col-xs-6'} %>
     <%= f.input :description %>
     <%= f.input :drive_link %>
+    <%= f.association :coverage %>
     <%= f.association :country %>
     <%= f.association :category%>
     <%= f.input :state %>
